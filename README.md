@@ -16,5 +16,7 @@ This project is an advanced, modular online retail platform built with a Django 
 
 ---
 
+.
+
 
 
