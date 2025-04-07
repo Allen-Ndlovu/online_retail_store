@@ -1,26 +1,20 @@
-# Online Retail Store
+# Innovative Online Retail Store
 
-An e-commerce platform for managing product listings, customer orders, inventory, and transactions.  
-**Tech Stack:** Python, Django, PostgreSQL, Bootstrap
+This project is an advanced, modular online retail platform built with a Django RESTful backend and a modern React front end. The application is designed to be scalable, configurable, and ready for future enhancements such as AI-powered recommendations, real-time notifications, and secure payment integration.
+
+---
 
 ## Features
-- Product catalog management.
-- Order processing and inventory tracking.
-- Responsive design with Bootstrap.
-- External configuration for database settings.
 
-## Installation & Setup
-1. **Clone the repository:**  
-   `git clone https://github.com/Allen-Ndlovu/online_retail_store.git`
-2. **Set up a virtual environment:**  
-   `python -m venv venv`  
-   Activate it (`venv\Scripts\activate` on Windows or `source venv/bin/activate` on Unix).
-3. **Install dependencies:**  
-   `pip install -r requirements.txt`
-4. **Configure Database:**  
-   - In the project root, copy `online_retail_store/local_settings.py.sample` to `online_retail_store/local_settings.py` and update the database settings.
-5. **Run Migrations & Server:**  
-   ```bash
-   python manage.py makemigrations
-   python manage.py migrate
-   python manage.py runserver
+- **Product Management:** CRUD operations for products with details such as price, stock, category, and ratings.
+- **AI-Based Recommendations:** A dummy recommendation endpoint that can later be enhanced with a machine-learning model.
+- **Order Processing:** Manage orders and order items with status tracking.
+- **User Registration:** Basic user registration using Django’s built-in User model.
+- **RESTful API:** All operations are exposed as RESTful endpoints.
+- **Modern Front End:** A responsive React application with a navigation bar, product listing, and user registration form.
+- **Configurable:** Sensitive settings are managed through a dedicated `config.py` file (for the backend), which is not committed to version control.
+
+---
+
+
+
