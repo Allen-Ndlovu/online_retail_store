@@ -1,38 +1,31 @@
-.registration-container {
+.form-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   max-width: 400px;
-  margin: 20px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.registration-form {
+  margin: 2rem auto;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
 }
 
-.registration-form input {
-  padding: 10px;
+.form-card h2 {
+  margin-bottom: 1rem;
+}
+
+.form-card__input {
+  width: 100%;
+  padding: 0.75rem;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
-.registration-form button {
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
+.form-card__btn {
+  padding: 0.75rem;
+  background: #1976d2;
+  color: #fff;
+  font-size: 1rem;
   border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.registration-form button:hover {
-  background-color: #0069d9;
-}
-
-.message {
-  margin-top: 10px;
-  color: green;
+  border-radius: 4px;
 }
