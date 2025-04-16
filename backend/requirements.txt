@@ -1,0 +1,9 @@
+Django>=4.0
+djangorestframework
+djangorestframework-simplejwt
+django-filter
+channels
+channels-redis
+psycopg2-binary
+joblib
+numpy

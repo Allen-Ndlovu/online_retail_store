@@ -8,4 +8,4 @@ venv/
 db.sqlite3
 
 
-online_retail_store/config.py
+retailstore/config.py

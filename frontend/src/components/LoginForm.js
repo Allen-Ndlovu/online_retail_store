@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './UserRegistration.css';
+import './LoginForm.css';
 
-function UserRegistration() {
+function LoginForm() {
   const [formData, setFormData] = useState({
     username: '',
     email: '',
@@ -63,4 +63,4 @@ function UserRegistration() {
   );
 }
 
-export default UserRegistration;
+export default LoginForm;
